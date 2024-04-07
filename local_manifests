@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<!-- fetching sources -->      
+
+        <remote name="AodX"
+                fetch="https://github.com/AodX" />  
+        
+   
+<!-- device trees -->
+
+        <project path="device/oneplus/dumpling" name="device_oneplus_dumpling" remote="lobo-1978" revision="wip" clone-depth="1" />
+        <project path="device/oneplus/cheeseburger" name="device_oneplus_cheeseburger" remote="lobo-1978" revision="wip" clone-depth="1" />
+        <project path="device_oneplus_msm8998-common " name="device_oneplus_msm8998-common " remote="lobo-1978" revision="wip" clone-depth="1" />
+        <project path="vendor/oneplus/dumpling" name="proprietary_vendor_oneplus_dumpling" remote="lobo-1978" revision="wip" clone-depth="1" />
+        <project path="vendor/oneplus/cheeseburger" name="proprietary_vendor_oneplus_cheeseburger" remote="lobo-1978" revision="wip" clone-depth="1" />
+        <project path="vendor/oneplus/msm8998-common" name="proprietary_vendor_oneplus_msm8998-common" remote="lobo-1978" revision="wip" clone-depth="1" />
+        <project path="kernel/oneplus/msm8998" name="android_kernel_oneplus_msm8998" remote="lobo-1978" revision="14" clone-depth="1" />
+        <project path="hardware/oneplus" name="hardware_oneplus" remote="lobo-1978" revision="lineage-21" clone-depth="1" />
+</manifest>
