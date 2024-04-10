@@ -15,7 +15,7 @@ running
 mkdir .repo/local_manifests
 ```
 ```
-curl https://raw.githubusercontent.com/AodX/local_manifests/main/$DEVICE/$MANIFEST_NAME > .repo/local_manifests/manifest.xml
+curl https://raw.githubusercontent.com/Zed9K/local_manifests/main/$DEVICE/$MANIFEST_NAME > .repo/local_manifests/manifest.xml
 ```
 be sure to replace $DEVICE and $MANIFEST_NAME with a device codename and manifest name, that are available.
 
