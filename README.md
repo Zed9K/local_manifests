@@ -1,6 +1,6 @@
 # Local Manifests
 
-These are local manifests for various devices.
+These are local manifests for dumpling and cheeseburger ( Oneplus 5 and 5T ).
 
 
 # Usage:
