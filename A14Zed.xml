@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+	<!-- Device repos -->
+	<project name="Zed9K/device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" revision="lineage-21" remote="github" />
+	<project name="Zed9K/device_oneplus_cheeseburger" path="device/oneplus/cheeseburger" revision="lineage-21" remote="github" />
+	<project name="Zed9K/device_oneplus_dumpling" path="device/oneplus/dumpling" revision="lineage-21" remote="github" />
+	<project name="Zed9K/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" revision="lineage-21" remote="github" />
+	<project name="Zed9K/proprietary_vendor_oneplus_msm8998-common" path="vendor/oneplus/msm8998-common" revision="lineage-21" remote="github" />
+	<project name="Zed9K/proprietary_vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" revision="lineage-21" remote="github" />
+	<project name="Zed9K/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" revision="lineage-21" remote="github" />
 
-<!-- fetching sources -->      
-
-        <remote name="Zed9K"
-                fetch="https://github.com/Zed9K" />  
-        
-   
-<!-- device trees -->
-
-        <project path="device/oneplus/dumpling" name="device_oneplus_dumpling" remote="Zed9K" revision="wip" clone-depth="1" />
-        <project path="device/oneplus/cheeseburger" name="device_oneplus_cheeseburger" remote="Zed9K" revision="wip" clone-depth="1" />
-        <project path="device_oneplus_msm8998-common " name="device_oneplus_msm8998-common " remote="Zed9K" revision="wip" clone-depth="1" />
-        <project path="vendor/oneplus/dumpling" name="proprietary_vendor_oneplus_dumpling" remote="Zed9K" revision="wip" clone-depth="1" />
-        <project path="vendor/oneplus/cheeseburger" name="proprietary_vendor_oneplus_cheeseburger" remote="Zed9K" revision="wip" clone-depth="1" />
-        <project path="vendor/oneplus/msm8998-common" name="proprietary_vendor_oneplus_msm8998-common" remote="Zed9K" revision="wip" clone-depth="1" />
-        <project path="kernel/oneplus/msm8998" name="android_kernel_oneplus_msm8998" remote="Zed9K" revision="14" clone-depth="1" />
-        <project path="hardware/oneplus" name="hardware_oneplus" remote="Zed9K" revision="lineage-21" clone-depth="1" />
+	<!-- Dependencies -->
+	<project name="Zed9K/hardware_oneplus" path="hardware/oneplus" revision="lineage-21" remote="github" />
 </manifest>
