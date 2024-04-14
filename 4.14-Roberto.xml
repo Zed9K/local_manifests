@@ -37,9 +37,6 @@
   <!-- Open Source projects -->
   <project path="vendor/oss/timekeep" name="4.14-timekeep" revision="mms8998_op/s-mr1" remote="githubgl" />
 
-  <!-- SimpleDeviceConfig -->
-  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" revision="12.1" remote="githubgl" />
-
   <!-- AOSP patches -->
   <project path="aosp_patches" name="aosp_patches" revision="a14" remote="githubgl" />
 </manifest>
