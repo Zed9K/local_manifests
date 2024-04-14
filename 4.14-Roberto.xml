@@ -26,7 +26,6 @@
   <project path="kernel/oneplus/prebuilt" name="4.14-kernel-oneplus-prebuilt" revision="master" clone-depth="1" remote="githubgl" />
 
   <!-- External -->
-  <project path="external/json-c" name="external_json-c" revision="lineage-21.0" remote="githubgl" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl"  revision="lineage-21.0" remote="githubgl" />
 
   <!-- Beginning of added projects from Lineage or Qualcomm (CAF) -->
