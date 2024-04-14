@@ -27,9 +27,6 @@
 
   <!-- Beginning of added projects from Lineage or Qualcomm (CAF) -->
 
-  <!-- HAL from Lineage -->
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" revision="gl/lineage-20.0" remote="githubgl" />
-
   <!-- Custom HAL from Sony/CAF -->
   <remove-project name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/media" name="4-14-hardware-qcom-media" revision="gl/aosp/LA.UM.8.2.1.r1" remote="githubgl" />
