@@ -25,9 +25,6 @@
     <!-- Prebuilt kernel repo -->
   <project path="kernel/oneplus/prebuilt" name="4.14-kernel-oneplus-prebuilt" revision="master" clone-depth="1" remote="githubgl" />
 
-  <!-- External -->
-  <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl"  revision="lineage-21.0" remote="githubgl" />
-
   <!-- Beginning of added projects from Lineage or Qualcomm (CAF) -->
   <!-- Sepolicy -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" revision="gl/lineage-21.0" remote="githubgl" />
