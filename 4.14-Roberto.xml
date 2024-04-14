@@ -26,8 +26,6 @@
   <project path="kernel/oneplus/prebuilt" name="4.14-kernel-oneplus-prebuilt" revision="master" clone-depth="1" remote="githubgl" />
 
   <!-- Beginning of added projects from Lineage or Qualcomm (CAF) -->
-  <!-- Sepolicy -->
-  <project path="device/qcom/sepolicy-legacy-um" name="4.14-device_qcom_sepolicy" revision="gl/lineage-21.0-legacy-um" remote="githubgl"  />
 
   <!-- HAL from Lineage -->
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" revision="gl/lineage-20.0" remote="githubgl" />
