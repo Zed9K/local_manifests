@@ -36,17 +36,12 @@
   <project path="vendor/oneplus/google" remote="github_ssh" name="TheRomFactory/proprietary_vendor_oneplus_google" revision="f9/a13" />
   <project path="vendor/oss/timekeep" remote="nk" name="4.14-timekeep" revision="mms8998_op/s-mr1"/>
 
-  <project path="vendor/qcom/opensource/commonsys-intf/display" remote="ed" name="android_vendor_qcom_opensource_display-commonsys-intf" />
-
-  <remove-project name="android_vendor_lineage" />
   <project path="vendor/lineage" remote="ed" name="matrixx-android_vendor_lineage" />
 
   <!-- Hardware -->
   <project path="hardware/oneplus" remote="github" name="LineageOS/android_hardware_oneplus" revision="lineage-21" />
 
-  <remove-project name="LineageOS/android_hardware_qcom-caf_common"/>
   <!-- Replicated from lineage manifest -->
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="ed" groups="qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
