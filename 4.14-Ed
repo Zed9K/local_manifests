@@ -36,8 +36,6 @@
   <project path="vendor/oneplus/google" remote="github_ssh" name="TheRomFactory/proprietary_vendor_oneplus_google" revision="f9/a13" />
   <project path="vendor/oss/timekeep" remote="nk" name="4.14-timekeep" revision="mms8998_op/s-mr1"/>
 
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" remote="nk" name="4.14-vendor-qcom-opensource-data-ipa-cfg-mgr" revision="msm8998_op/aosp/LA.UM.8.1.r1" />
-
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" remote="ed" name="android_vendor_qcom_opensource_display-commonsys-intf" />
 
