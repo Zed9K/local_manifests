@@ -39,6 +39,5 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-  </project>
 
 </manifest>
