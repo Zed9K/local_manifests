@@ -10,5 +10,5 @@
 	<project name="crdroidandroid/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" revision="14.0" remote="github" />
 
 	<!-- Dependencies -->
-	<project name="crdroidandroid/android_hardware_oneplus" path="hardware/oneplus" revision="14.0" remote="github" />
+	<project name="crdroidandroid/android_hardware_oneplus" path="hardware/oneplus" revision="14.0-msm8998" remote="github" />
 </manifest>
