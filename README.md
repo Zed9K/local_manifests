@@ -21,7 +21,7 @@ be sure to replace $DEVICE and $MANIFEST_NAME with a device codename and manifes
 
 Example:
 ```
-mkdir .repo/local_manifests && curl https://raw.githubusercontent.com/Zed9K/local_manifests/main/A14Lineage.xml > .repo/local_manifests/roomservice.xml
+mkdir .repo/local_manifests && curl https://raw.githubusercontent.com/Zed9K/local_manifests/main/Rising-A15.xml > .repo/local_manifests/roomservice.xml
 ```
 
 after that do 
