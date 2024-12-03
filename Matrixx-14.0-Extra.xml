@@ -10,5 +10,5 @@
 	<project name="TheMuppets/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" revision="lineage-21" remote="github" />
 
 	<!-- Dependencies -->
-	<project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" revision="14.0-Extra" remote="github" />
+	<project name="Zed9K/android_hardware_oneplus" path="hardware/oneplus" revision="14.0-Extra" remote="github" />
 </manifest>
